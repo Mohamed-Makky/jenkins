@@ -3,18 +3,18 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-              echo "git hub"  
-              echo "completed bulid"
+              echo "From github"  
+              echo "bulid completed "
             }
         }
         stage('Test') { 
             steps {
-                echo "completed test"
+                echo "test completed"
             }
         }
         stage('Deploy') { 
             steps {
-                echo "completed deploy"
+                echo "deploy completed"
             }
         }
     }
